@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightblue;
+    color: navy;
+    font-family: fantasy;
+    font-size: larger;
+    font-weight: bold;
+
+}
+header{
+    margin: 30px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid navy;
+    outline: none;
+} 
+#checkBtn,
+#reset-btn{
+    padding: 10px;
+    color: white;
+    background-color: navy;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+#checkBtn:hover,
+#reset-btn:hover{
+    cursor: pointer;
+    background-color: rgb(86, 86, 240);
+}
+.textArea{
+    margin-bottom: 10px;
+}
